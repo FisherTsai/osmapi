@@ -36,7 +36,7 @@ import urllib
 import requests
 from datetime import datetime
 
-from osmapi import __version__
+from osmapipy2 import __version__
 
 # Python 3.x
 if getattr(urllib, 'urlencode', None) is None:

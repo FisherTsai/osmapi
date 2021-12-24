@@ -1,5 +1,5 @@
 from __future__ import unicode_literals
-from osmapi import OsmApi
+from osmapipy2 import OsmApi
 import mock
 import os
 import sys

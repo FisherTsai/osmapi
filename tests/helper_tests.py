@@ -1,6 +1,6 @@
 from __future__ import (unicode_literals, absolute_import)
 from . import osmapi_tests
-import osmapi
+import osmapipy2 as osmapi
 import mock
 import os
 

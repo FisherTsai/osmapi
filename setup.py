@@ -4,7 +4,7 @@ from codecs import open
 from setuptools import setup
 import re
 
-with open('osmapi/__init__.py', 'r') as fd:
+with open('osmapipy2/__init__.py', 'r') as fd:
     version = re.search(r'^__version__\s*=\s*[\'"]([^\'"]*)[\'"]',
                         fd.read(), re.MULTILINE).group(1)
 
@@ -21,18 +21,15 @@ except (IOError, OSError, ImportError):
     description = 'Python wrapper for the OSM API'
 
 setup(
-    name='osmapi',
-    packages=['osmapi'],
+    name='osmapi-py2',
+    packages=['osmapipy2'],
     version=version,
     install_requires=['requests'],
-    description='Python wrapper for the OSM API',
+    description='Python 2 wrapper for the OSM API',
     long_description=description,
-    author='Etienne Chové',
-    author_email='chove@crans.org',
-    maintainer='Stefan Oderbolz',
-    maintainer_email='odi@metaodi.ch',
-    url='https://github.com/metaodi/osmapi',
-    download_url='https://github.com/metaodi/osmapi/archive/v%s.zip' % version,
+    maintainer='Fisher Tsai',
+    maintainer_email='fishy0903@gmail.com',
+    url='https://github.com/fishertsai/osmapi-py2',
     keywords=['openstreetmap', 'osm', 'api'],
     license='GPLv3',
     classifiers=[
@@ -43,11 +40,5 @@ setup(
         'Development Status :: 4 - Beta',
         'Programming Language :: Python :: 2',
         'Programming Language :: Python :: 2.7',
-        'Programming Language :: Python :: 3',
-        'Programming Language :: Python :: 3.3',
-        'Programming Language :: Python :: 3.4',
-        'Programming Language :: Python :: 3.5',
-        'Programming Language :: Python :: 3.6',
-        'Programming Language :: Python :: 3.7',
     ],
 )

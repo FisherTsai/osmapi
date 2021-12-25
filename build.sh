@@ -14,9 +14,6 @@ flake8 --statistics --show-source .
 # run tests
 nosetests --verbose --with-coverage
 
-# generate the docs
-pdoc --html --overwrite osmapi/OsmApi.py
-
 # setup a new virtualenv and try to install the lib
 virtualenv pyenv
 source pyenv/bin/activate && pip install .

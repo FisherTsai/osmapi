@@ -70,7 +70,7 @@ class OsmApi:
             password=None,
             passwordfile=None,
             appid="",
-            created_by="osmapi/%s" % __version__,
+            created_by="osmapipy2/%s" % __version__,
             api="https://www.openstreetmap.org",
             changesetauto=False,
             changesetautotags={},

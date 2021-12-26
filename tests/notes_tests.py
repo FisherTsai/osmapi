@@ -1,7 +1,7 @@
 from __future__ import (unicode_literals, absolute_import)
 from . import osmapi_tests
 from datetime import datetime
-import osmapi
+import osmapipy2 as osmapi
 
 try:
     import urlparse

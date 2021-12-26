@@ -27,6 +27,7 @@ setup(
     install_requires=['requests'],
     description='Python 2 wrapper for the OSM API',
     long_description=description,
+    long_description_content_type='text/x-rst',
     maintainer='Fisher Tsai',
     maintainer_email='fishy0903@gmail.com',
     url='https://github.com/fishertsai/osmapi-py2',

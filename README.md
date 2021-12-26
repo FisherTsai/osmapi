@@ -1,6 +1,8 @@
 osmapi-py2
 ======
 
+[![Build](https://github.com/FisherTsai/osmapi-py2/actions/workflows/build.yml/badge.svg)](https://github.com/FisherTsai/osmapi-py2/actions/workflows/build.yml)
+
 Python 2 wrapper for the OSM API
 
 
